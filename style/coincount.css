@@ -1,0 +1,64 @@
+a:hover {
+  color: red; 
+  text-decoration: none;
+}
+
+span.cent {
+  color: #FFD11C;
+  font-size: 30pt;
+}
+
+span.and {
+  font-size: 20pt;
+}
+
+span.dollar {
+  color: #18E559;
+  font-size: 30pt;
+}
+
+.listNames{
+    font-size: 1.2em;
+}
+
+#theTitle{
+    font-size: 3em;
+}
+
+header{
+    display: block;
+    text-align: center;
+}
+
+#outputTable{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.therefore{
+    font-size: 1.3em;
+}
+
+.col-sm-6{
+    font-size: 1.2em;
+}
+
+td {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error {
+    color: #FF0000;
+}
+
+.col-xs-6 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+h3 {
+    margin-left: 30px;
+}
