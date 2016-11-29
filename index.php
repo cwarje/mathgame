@@ -27,7 +27,7 @@
             $_SESSION['correct']++;
             $message = "<span style='color:#0F0';>Correct!</span>";
         } else if (!is_numeric($_POST['userAnswer'])){
-            $message = "You must enter a number for your answer.";
+            $message = "<span style='color:#F00';>You must enter a number for your answer.</span>";
         } else {
             $_SESSION['totalAttempts']++;
             $message = "<span style='color:#F00';>Wrong, " . $_SESSION['correctionInt1'] . $_SESSION['correctionOperator'] . $_SESSION['correctionInt2'] . " = " . $_SESSION['answer'] . "</span>";
