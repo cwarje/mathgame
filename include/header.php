@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Cash Calculator</title>
+        <title>Math Game</title>
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="style/coincount.css" rel="stylesheet" media="screen">
         <script src="bootstrap/js/jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -11,11 +11,6 @@
     </head>
     <body>
         <header class="content">
-            <div class="jumbotron">
-                <h2 id="theTitle">Cash Calculator</h2>
-                <span class="cent">&cent;&cent;&cent;&cent;</span>
-                <span class="and">&amp;</span>&nbsp;
-                <span class="dollar">$$$$</span>&nbsp;
+                <h2 id="theTitle">Log in to play the math game!</h2>
                 <br />
-            </div>
         </header>
