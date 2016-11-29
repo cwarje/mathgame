@@ -23,8 +23,8 @@
 
                 <div class="col-sm-6" align="right">Password:</div>
                 <div class="col-sm-6"><input class="form-control" name="password" placeholder="Password" size="30" type="text"></div>
-
-                <div class="col-sm-6" align="center"><input class="btn btn-primary" name="submit" type="submit" value="Login"></div>
+            
+                <div class="col-sm-12" align="center"><input class="btn btn-primary" name="submit" type="submit" value="Login"></div>
             </div>
             <?php
                 if(!empty($_SESSION['error'])){

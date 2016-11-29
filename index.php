@@ -67,12 +67,12 @@
         <h2 id="theTitle">Math Game</h2>
         <br />
     </header>
-    <div class="col-sm-12" align="center"><a class="btn btn-warning" href="logout.php">Logout</a></div>
+    <div class="col-sm-12" align="right"><a class="btn btn-warning" href="logout.php">Logout</a></div>
     <form action="index.php" method="post">
         <div class="form-group">
             <div class="container-fluid">
-                <div class="col-sm-6" align="left"><?php echo "$int1 $operator $int2" ?></div>
-                <div class="col-sm-6"><input type="text" class="form-control" name="userAnswer" placeholder="Enter answer" size="30" ></div>
+                <div class="col-sm-3" align="left"><?php echo "$int1 $operator $int2" ?></div>
+                <div class="col-sm-9"><input type="text" class="form-control" name="userAnswer" placeholder="Enter answer" size="30"></div>
                 <input class="form-control" name="answer" type="hidden">
                 <div class="col-sm-12" align="center"><input class="btn btn-primary" name="submit" type="submit" value="Submit"></div>
             </div>
