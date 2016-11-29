@@ -1,43 +1,6 @@
-a:hover {
-  color: red; 
-  text-decoration: none;
-}
-
-span.cent {
-  color: #FFD11C;
-  font-size: 30pt;
-}
-
-span.and {
-  font-size: 20pt;
-}
-
-span.dollar {
-  color: #18E559;
-  font-size: 30pt;
-}
-
-.listNames{
-    font-size: 1.2em;
-}
-
-#theTitle{
-    font-size: 3em;
-}
-
 header{
     display: block;
     text-align: center;
-}
-
-#outputTable{
-    display: block;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.therefore{
-    font-size: 1.3em;
 }
 
 .col-sm-6{
